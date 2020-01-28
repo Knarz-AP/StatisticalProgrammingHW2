@@ -6,7 +6,7 @@ print("Programming Assignment #2")
 # Ask user for number of clusters (k)
 k = int(input("Enter the number of clusters: "))
 
-# Grab data from file
+# Grab data from file specified
 data = [float(x.rstrip()) for x in open("prog2-input-data.txt")]
 
 # Create variables to store centroids, clusters, and point assignments.
