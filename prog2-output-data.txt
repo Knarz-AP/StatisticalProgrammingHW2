@@ -1,0 +1,10 @@
+Point 1.8 in Cluster 0
+Point 2.1 in Cluster 0
+Point 4.5 in Cluster 1
+Point 6.5 in Cluster 1
+Point 1.1 in Cluster 2
+Point 0.5 in Cluster 2
+Point 3.2 in Cluster 3
+Point 9.8 in Cluster 4
+Point 7.6 in Cluster 4
+Point 11.32 in Cluster 4
