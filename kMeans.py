@@ -24,7 +24,7 @@ def assign_to_clusters(data, clusters, centroids, point_assignments):
         closest_index = float('inf')  # Setting an arbitrarily large value to start comparisons
         index = 0
         for i in range(len(centroids)):
-            distance = abs(point - centroids[i])
+            distance = (abs(point - centroids[i]))
             if distance < closest_index:
                 closest_index = distance
                 index = i
