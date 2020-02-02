@@ -56,7 +56,10 @@ while point_assignments != oldpoints:  # Loop until points no longer change
     clusters = dict(zip(range(k), [[] for i in range(k)]))  # Updating clusters
     point_assignments = assign_to_clusters(data, clusters, new_centroids, point_assignments)
 
-# Generate output file and end program
+# Print points in clusters and generate output file and end program
+for c, p in clusters.items():
+    for points in p:
+        print("Point " + str(points) + " in Cluster " + str(c))
 with open("prog2-output-data.txt", 'w') as f:
     for c, p in clusters.items():
         for points in p:
